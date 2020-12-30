@@ -1,0 +1,76 @@
+ body {
+                background: black;
+                margin: 0;
+                padding: 0;
+                font-family: 'Helvetica';
+            }
+            
+            #instructions {
+                background-color: rgba(0,0,0,0.75);
+                color: white;
+                text-align: center;
+                padding: 32px;
+                margin: 0px;
+                display: inline;
+                border: 2px solid white;
+            }
+
+            #help {
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+                padding: 4px;
+                color: white;   
+            }
+
+            #level {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                padding: 4px;
+                color: yellow;   
+                font-weight: bold;
+            }
+			
+			#log{
+                position: absolute;
+                left: 0px;
+                top: 20px;
+                padding: 10px;
+                color: yellow;   
+                font-weight: bold;
+            } 
+
+			
+#logo2 {
+	
+	position: absolute;
+	font-family: 'Ultra', 'BYekan'; 
+	color:white;
+	bottom: 0;
+    height: 65px;
+	width: 100%;
+	/* background-color: #570d28; */
+	background-color: rgba(0,0,0,0.24);
+	text-align: right;
+	
+	background-repeat: no-repeat;
+	background-position: top left;
+	box-shadow: 0px -5px  5px rgba(0,0,0,0.4);
+  -moz-box-shadow:0px -5px  5px rgba(0,0,0,0.4);
+  -webkit-box-shadow:0px -5px  5px rgba(0,0,0,0.4);
+  -o-box-shadow:0px -5px  5px rgba(0,0,0,0.4);
+	
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    
+}
+
+@font-face {	
+	font-family:"BYekan";
+    src: url('fonts/BYekan.eot?#') format('eot'),
+    url('fonts/BYekan.ttf') format('truetype'),
+    url('fonts/BYekan.woff') format('woff');
+    }
